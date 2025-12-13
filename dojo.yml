@@ -10,5 +10,5 @@ modules:
       Your goal is to safely parse and evaluate arithmetic expressions containing
       Roman numerals and integers while rejecting malicious or malformed input.
     challenges:
-      - id: starter-code
+      - id: startercode
         name: Patch an eval() Injection Vulnerability
