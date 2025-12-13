@@ -1,5 +1,5 @@
 modules:
-  - id: inf113-hw6challenge
+  - id: inf113hw6challenge
     name: Securing a Legacy Invoice Import Service
     description: >
       In this proof-of-concept security module, you will act as a junior software
