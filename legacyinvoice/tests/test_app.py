@@ -6,7 +6,7 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, PROJECT_ROOT)
 import pytest
 
-from startercode.app import compute_invoice_total, InvoiceFormatError
+from legacyinvoice.startercode.app import compute_invoice_total, InvoiceFormatError
 
 
 

@@ -1,5 +1,5 @@
 modules:
-  - id: root
+  - id: legacyinvoice
     name: Securing a Legacy Invoice Import Service
     description: >
       Fix an eval()-based injection vulnerability in a legacy
