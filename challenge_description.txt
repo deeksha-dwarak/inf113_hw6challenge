@@ -1,1 +1,11 @@
+Challenge Title: Securing a Legacy Invoice Import Service
+
+**Description:**
+You are working on a legacy invoice import service that processes invoice totals submitted by external partners. These totals may be provided as Roman numerals (e.g., "MCMXCIV") or as simple arithmetic expressions combining Roman numerals and integers using addition and subtraction.
+
+The current implementation converts Roman numerals to integers and then uses Python’s eval() function to compute the result. While this approach works for many valid inputs, it introduces a serious security vulnerability: attackers can craft malicious inputs that attempt to execute arbitrary code or access Python internals.
+
+Your task is to patch the service by removing eval() and implementing a safe parsing and evaluation strategy. The updated solution must preserve correct behavior for valid inputs while rejecting malicious, malformed, or unsupported expressions.
+
+This challenge is designed to help you practice secure input handling, safe evaluation techniques, and defensive programming in a realistic software engineering scenario.
 
