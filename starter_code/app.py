@@ -11,6 +11,10 @@ SECURITY WARNING:
 This starter version uses eval() on user-derived input.
 Learners are expected to remove eval() and implement safe parsing.
 """
+import json
+import sys
+import time 
+from dataclasses import dataclass
 
 from __future__ import annotations
 
