@@ -1,9 +1,14 @@
-steps:
-  - name: Install dependencies
-    run: |
-      python -m pip install --upgrade pip
-      pip install pytest
-
-  - name: Run tests
-    run: |
-      pytest
+modules:
+  - id: legacy-invoice-security
+    name: Securing a Legacy Invoice Import Service
+    description: >
+      In this proof-of-concept security module, you will act as a junior software
+      engineer tasked with fixing a critical vulnerability in a legacy invoice
+      import service. The service currently evaluates user-provided expressions
+      using Python's eval(), exposing it to code injection attacks.
+      
+      Your goal is to safely parse and evaluate arithmetic expressions containing
+      Roman numerals and integers while rejecting malicious or malformed input.
+    challenges:
+      - id: secure-invoice-evaluator
+        name: Patch an eval() Injection Vulnerability
