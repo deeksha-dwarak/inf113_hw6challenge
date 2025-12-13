@@ -1,5 +1,5 @@
 modules:
-  - id: inf113_hw6challenge
+  - id: inf113-hw6challenge
     name: Securing a Legacy Invoice Import Service
     description: >
       In this proof-of-concept security module, you will act as a junior software
@@ -10,5 +10,5 @@ modules:
       Your goal is to safely parse and evaluate arithmetic expressions containing
       Roman numerals and integers while rejecting malicious or malformed input.
     challenges:
-      - id: starter_code
+      - id: starter-code
         name: Patch an eval() Injection Vulnerability
