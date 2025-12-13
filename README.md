@@ -2,11 +2,11 @@
 
 ## Codesafe Context
 This repository contains a **proof-of-concept security challenge for the Codesafe platform**.  
-The challenge is designed to help learners practice software enginneering concepts by identifying and fixing a real-world vulnerability in Python code! :) 
+The challenge is designed to help learners practice software engineering concepts by identifying and fixing a real-world vulnerability in Python code! :) 
 
 ## Narrative (User Story)
 
-I want to identify and patch an 'eval()' -based injection vulnerability in a legacy service,  
+As a student I want to identify and patch an 'eval()' -based injection vulnerability in a legacy service,  
 so that I can learn how to securely process untrusted input without breaking existing functionality.
 
 ## Scenario
@@ -80,3 +80,6 @@ so that it:
 ## Educational Value
 This challenge supports Codesafe’s product goals by:
 - Teaching secure input
+- Demonstrating why eval() is dangerous in real-world systems
+- Reinforcing defensive programming and validation techniques
+- Providing hands-on experience patching legacy code securely
